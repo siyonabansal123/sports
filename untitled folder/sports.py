@@ -16,13 +16,13 @@ from PIL import Image, ImageFont, ImageDraw
 # In[3]:
 
 
-my_image = Image.open("/Users/siyonabansal/Downloads/E-Certificate.jpeg")
+my_image = Image.open("E-Certificate.jpeg")
 
 
 # In[4]:
 
 
-title_font = ImageFont.truetype('/Users/siyonabansal/Downloads/Oleo_Script_Swash_Caps/OleoScriptSwashCaps-Bold.ttf', 20)
+title_font = ImageFont.truetype('Oleo_Script_Swash_Caps/OleoScriptSwashCaps-Bold.ttf', 20)
 
 
 # In[5]:
@@ -30,7 +30,7 @@ title_font = ImageFont.truetype('/Users/siyonabansal/Downloads/Oleo_Script_Swash
 
 import pandas as pd
 
-df = pd.read_csv(r'/Users/siyonabansal/Downloads/IITBSports.csv')
+df = pd.read_csv(r'IITBSports.csv')
 print (df)
 
 
